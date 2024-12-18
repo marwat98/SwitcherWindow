@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Switcher Window</title>
 </head>
 <body>
-    
+    <nav class="menu">
+        <div class="inline_menu">
+            <ion-icon name="menu-outline"></ion-icon>
+            <h1>Switcher</h1>
+        </div>
+        <ul>
+            <li><ion-icon name="home-outline"></ion-icon><a href="#">Strona główna</a></li>
+            <li><ion-icon name="folder-outline"></ion-icon><a href="#">Foldery</a></li>
+            <li><ion-icon name="document-text-outline"></ion-icon><a href="#">Dokumenty</a></li>
+            <hr>
+            <li class="under_line"><ion-icon name="settings-outline"></ion-icon><a href="#">Ustawienia</a></li>
+            <li class="under_line"><ion-icon name="exit-outline"></ion-icon><a href="#">Wyloguj</a></li>
+        </ul>
+    </nav>
 </body>
+<script href="script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </html>
